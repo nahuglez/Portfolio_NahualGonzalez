@@ -1,0 +1,112 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+p {
+  margin-bottom: 2.13rem;
+	color: 000000;
+}
+    
+div:last-child p{
+  margin-bottom: 0;
+}
+
+.ruta{
+  margin-left:15px; 
+  color:#999;
+  margin-bottom:0;
+}
+.ruta a, .ruta visited{
+  color:690000;text-decoration: none;
+}
+
+h2{
+  padding-top:0;
+  line-height:2.50rem;
+  margin-bottom: 0.999rem;
+}
+
+.introduccion{
+  grid-column:1 / span 6;
+  grid-row:1 / span 1;
+  color: 000000;
+}
+
+.introduccion p{
+	font-size: 20px;
+  margin-bottom:0;
+	color: 000000;
+}
+
+.gato{
+  grid-column:1 / span 3;
+  grid-row:2 / span 1;
+  align-self:end;
+	
+}
+
+.torre{  
+  grid-column:4 / span 4;
+  grid-row-end: span 2;
+  align-self:end;
+}
+
+.mono{
+  grid-column:8 / span 2;
+  grid-row:2/ span 1;
+}
+
+.textomono{
+  grid-column:10 / span 3;
+  grid-row:2/ span 1;
+	color: 000000;
+}
+
+.textogato{
+  grid-column:1 / span 3;
+  grid-row:3/ span 1;
+  align-self:start;
+	color: 000000;
+}
+
+.textotorre{
+  grid-column:8 / span 3;
+  grid-row:3/ span 1;
+  align-self:end;
+	color: 000000;
+}
+
+.pagination {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  flex-direction:row;
+  justify-content:space-between;
+  padding: 0px 15px 15px 15px;
+}
+
+.pagination a {
+  color: 690000;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+}
+a.pag:hover{
+  background-color: #ddd;   
+}
+
+@media (max-width: 912px) {
+  
+ 
+   .container {
+   display:block;
+   margin-left: 15px; 
+   margin-right: 15px;
+  }
+   div.introduccion{
+   margin-bottom:25px;
+    }
+}

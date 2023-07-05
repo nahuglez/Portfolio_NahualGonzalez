@@ -1,0 +1,65 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.primera{
+  grid-column:1 / span 3;
+	font-family: 'Be Vietnam Pro', sans-serif;
+	color:#000000
+}
+
+.segunda{
+  grid-column:4 / span 6;
+	font-family: 'Be Vietnam Pro', sans-serif;
+		color:#000000
+}
+
+#primer {
+  margin-top:-15px;
+	font-family: 'Be Vietnam Pro', sans-serif;
+		color:#000000
+}
+
+.tercera {  
+  grid-column:9 / span 4;
+}
+
+table, th, td {
+  border:1px solid #333;
+  border-collapse: collapse;
+  height:20px;
+  }
+
+table{
+  width:100%;
+  margin-bottom:15px;
+}
+
+.grafico{
+  width:95%; 
+  background-color:#ccc; 
+  text-align: center;
+}
+
+.web{
+  width:85%; background-color:#ccc; text-align: center;
+}
+
+.animacion{
+  width:75%; background-color:#ccc;text-align: center;
+}
+
+.float{
+  float:right;clear:right;
+}
+
+@media (max-width: 912px) {
+  
+   .container {
+     display:block;
+     margin-left: 15px; 
+     margin-right: 15px;
+  }
+  #primer {
+    margin-top:0;
+      }
+}
